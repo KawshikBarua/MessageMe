@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "295261455004",
+    "project_id": "messageme-e4ff1",
+    "storage_bucket": "messageme-e4ff1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295261455004:android:208cdb87862c7a076a2359",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295261455004-9n9mv110c11jo6isln23ittflnibvjme.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chat_app",
+            "certificate_hash": "b67e65a244f1619d6df33cccc44aa384d93acfbf"
+          }
+        },
+        {
+          "client_id": "295261455004-07f06m03ai5d04o6jqdrpld6jpivvdh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXp6aZ4ZLXqNpqUzSfB3pC7cC-5biSzPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295261455004-07f06m03ai5d04o6jqdrpld6jpivvdh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
