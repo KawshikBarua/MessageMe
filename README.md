@@ -2,6 +2,8 @@
 
 •Description:
 A basic chat app that can be used to chat with friends and random people once they have signed up. This chat system does not require to send friend request in order to send texts.  The design was kept simple and in this document reader will find a complete guide on how this was constructed.
+
+
 •Packages Used:
   	firebase_auth: ^3.3.7
 	firebase_database: ^9.0.8
@@ -10,9 +12,13 @@ A basic chat app that can be used to chat with friends and random people once th
  	contacts_service: ^0.6.3
   	cloud_firestore: ^3.1.10
 	flutter_native_splash: ^2.1.3+1
+	
+	
 •Screens:
 There are total 7 screens and all the screen does what name of the files says. I hope most of them are very straight forward so I am not going to explain all the screens. However, check_screen.dart is used to check whether a user is logged in or not. So what is basically happening in this screen is that a Streambuilder is constantly listening to a stream of authChange{ will be described more elaborately in another section}and if the stream returns a null this means that user is currently logged out hence we will be guided to LoginScreen() else user will be taken to LandingScreen().
 The landing_screen.dart is the first screen we see after logging and this contains 2 more screens which are the friend_screen.dart and chat_screen.dart.
+
+
 •Database:
 For the database I have used Firebase in my app. The purpose of Firebase here is to store all the user information and their data. Furthermore, with the help of realtime database, messages are sent and received. If the reader looks in the service folder there will be 3 dart files, these files are used for communicating with firebase. Lets start with firebase_auth.
 
