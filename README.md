@@ -1,5 +1,9 @@
 **MessageMe**
 
+![1](https://user-images.githubusercontent.com/87719519/169698976-f6d56e21-0e4c-4659-9e3e-da42fa7c7b4c.PNG)
+
+
+
 •Description:
 A basic chat app that can be used to chat with friends and random people once they have signed up. This chat system does not require to send friend request in order to send texts.  The design was kept simple and in this document reader will find a complete guide on how this was constructed.
 
